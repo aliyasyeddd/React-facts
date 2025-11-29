@@ -1,8 +1,11 @@
+
+import reactLogo from '../public/images/react-logo.png'
+
 export default function Navbar() {
     return (
         <header>
             <nav>
-                <img src="images/react-logo.png" alt="React logo" />
+                <img src={reactLogo} alt="React logo" />
                 <span>ReactFacts</span>
             </nav>
         </header>
